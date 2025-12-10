@@ -47,7 +47,7 @@
     *   **Методы:** Анализ временных рядов, построение SARIMA-модели с учетом суточной (24ч) и недельной сезонности. Валидация через ACF/PACF, подбор параметров (AIC/BIC), оценка точности на отложенной выборке с использованием метрики MASE.
     *   **Стек:** `Python`, `pandas`, `statsmodels`, `matplotlib`, `seaborn`, `Jupyter Notebook`.
     *   **Ключевой результат:** Построена модель, стабильно превосходящая наивный прогноз (MASE = 0.74 на горизонте 1 месяц, что на 26% лучше). Выявлены ключевые паттерны: долгосрочный рост тренда, выраженная суточная цикличность, пики преступности в вечернее время и выходные дни.
-    *   **Данные:** [Chicago Crimes Dataset](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
+    *   **Данные:** [Chicago Crimes Dataset]([https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2](https://data.cityofchicago.org/browse?category=Public+Safety&utf8=%E2%9C%93&sortBy=most_accessed&pageSize=20&page=1))
 
 4.  **Анализ неравенства арктических регионов по ВРП**
     *   **Задача:** Исследовать диспропорции в экономическом развитии.
